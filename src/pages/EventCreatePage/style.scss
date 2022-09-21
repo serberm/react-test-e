@@ -1,0 +1,22 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+.eventcreate-main {
+  margin-top: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: $screen-lg) {
+}
+
+@media (max-width: $screen-md) {
+  .eventcreate-main {
+    .eventcreate-next__button {
+      @include primary-button($font-size-sm);
+      width: 187px;
+      margin: 10px auto 20px;
+
+    }
+  }
+}

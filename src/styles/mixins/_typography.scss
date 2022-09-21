@@ -1,0 +1,14 @@
+@mixin blue-link ($font-size) {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: $font-size;
+  text-decoration: none !important;
+  cursor: pointer;
+  line-height: 29px;
+  color: $blue;
+  text-transform: uppercase;
+  display: block;
+  &:hover {
+    color: $blue-dark;
+  }
+}

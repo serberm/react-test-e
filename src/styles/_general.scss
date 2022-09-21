@@ -1,0 +1,85 @@
+html {
+  font-family: $font-family-base;
+  font-weight: $font-weight-base;
+  font-size: $font-size-initial;
+}
+
+body {
+  font-family: $font-family-base;
+  padding: 0px;
+  margin: 0px;
+}
+html,
+body {
+  height: 100%;
+}
+main {
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $blue-100;
+  font-family: $font-family-bold;
+  font-weight: $font-weight-bold;
+  margin: 0px;
+}
+
+h1 {
+  font-size: $h1-font-size;
+}
+
+h2 {
+  font-size: $h2-font-size;
+}
+b {
+  font-family: $font-family-bold;
+}
+h3 {
+  font-size: $h3-font-size;
+}
+
+h4 {
+  font-size: $h4-font-size;
+}
+
+h5 {
+  font-size: $h5-font-size;
+}
+
+h6 {
+  font-size: $h6-font-size;
+}
+
+@media (max-width: $screen-xl) {
+
+}
+@media (max-width: $screen-md) {
+
+  h1 {
+    font-size: $font-size-base * 1.6;
+  }
+
+  h2 {
+    font-size: $font-size-base * 1.2;
+  }
+
+  h3 {
+    font-size: $font-size-base * 1;
+  }
+
+  h4 {
+    font-size: $font-size-base * 0.7;
+  }
+
+  h5 {
+    font-size: $font-size-base * 0.7;
+  }
+
+  h6 {
+    font-size: $font-size-base * 0.8;
+  }
+  hr {
+    margin: 50px auto 30px;
+    width: 200px;
+  }
+}

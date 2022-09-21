@@ -1,0 +1,58 @@
+// Variables
+//== Screens
+$screen-sm:                   480px;
+$screen-md:                   959px;
+$screen-lg:                   1025px;
+$screen-xl:                   1200px;
+
+//== Fonts
+$font-weight-bold:            700 !default;
+$font-weight-medium:          500 !default;
+$font-weight-regular:         400 !default;
+$font-weight-normal:          300 !default;
+$font-weight-base:            $font-weight-normal !default;
+
+//== Typography
+$font-family-base: 'Helvetica';
+$font-family-bold: 'Helvetica-Bold';
+$font-family-light: 'Helvetica-Light';
+
+$font-size-initial:           18px;
+$font-size-base:              18px !default;
+$font-size-lg:                20px !default;
+$font-size-sm:                16px !default;
+$font-size-mini:              0.7rem !default;
+
+//== Headlines
+$h1-font-size:                $font-size-base * 2.1 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.2 !default;
+$h6-font-size:                $font-size-base !default;
+
+
+//== Color system
+$white: #fff !default;
+
+$blue-100: #240D57;
+$blue-200: #501FC1;
+$blue-300: #8456EC;
+$blue-400: #E87BF8;
+$blue-500: #CCB6FF;
+$blue-600: #EDE5FF;
+$blue-700: #F6F2FF;
+
+$pink: #FFD7E0;
+$red: #E61445;
+$light-green: #D3FFE2;
+$green : #00805E;
+
+$gray-100: #4F4F4F;
+$gray-200: #828282;
+$gray-300: #BDBDBD;
+$gray-400: #E0E0E0;
+$gray-500: #F2F2F2;
+$gray-600: #BDBDBD;
+
+$border-radius: 10px;

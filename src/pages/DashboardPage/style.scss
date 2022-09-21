@@ -1,0 +1,88 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+.dashbard-main {
+  margin-top: 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: $screen-lg) {
+  .dashbard-main {
+    margin-top: 60px;
+    text-align: center;
+    .dashboard-title-container {
+      display: flex;
+      flex-direction: column;
+      padding: 0px 27px;
+      p {
+        margin-top: 16px;
+        margin-bottom: 2px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 27px;
+        color: $gray-100;
+        font-family: $font-family-light;
+      }
+    }
+    h1 {
+      font-size: 64px;
+      line-height: 64px;
+    }
+    .dashboard-title__t2 {
+      background: linear-gradient(to right, $blue-300, $blue-400);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .dashboard-land {
+      height: 100%;
+      max-width: 50%;
+      margin: 55px auto;
+    }
+    .dashboard-create__button {
+      @include primary-button($font-size-lg);
+      width: 310px;
+      margin: 0px auto 26px;
+    }
+  }
+}
+
+@media (max-width: $screen-md) {
+  .dashbard-main {
+    margin-top: 28px;
+    text-align: center;
+    .dashboard-title-container {
+      display: flex;
+      flex-direction: column;
+      padding: 0px 27px;
+      p {
+        margin-top: 16px;
+        margin-bottom: 2px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 18px;
+        color: $gray-100;
+        font-family: $font-family-light;
+      }
+    }
+    h1 {
+      font-size: 36px;
+      line-height: 36px;
+    }
+    .dashboard-title__t2 {
+      background: linear-gradient(to right, $blue-300, $blue-400);
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .dashboard-land {
+      height: 100%;
+      max-width: 50%;
+      margin: 34px auto;
+    }
+    .dashboard-create__button {
+      @include primary-button($font-size-sm);
+      width: 187px;
+      margin: 10px auto 20px;
+    }
+  }
+}

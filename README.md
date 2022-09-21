@@ -9,6 +9,3 @@ yarn install
 ```bash
 yarn start
 ```
-
-## Screenshot
-![frontendtest](image.png)

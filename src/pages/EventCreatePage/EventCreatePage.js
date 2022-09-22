@@ -1,8 +1,10 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import { useEvent } from "../../context";
 import "./style.scss";
 
 const EventCreatePage = () => {
+  const history = useHistory();
   const { setEvents, events, setEvent } = useEvent();
   const [form, setForm] = React.useState({
     name: "",
@@ -21,6 +23,7 @@ const EventCreatePage = () => {
   const onNext = () => {
     setEvents([...events, form]);
     setEvent(form);
+    history.push('/event')
   };
   return (
     <main className="eventcreate-main">
